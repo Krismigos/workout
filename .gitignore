@@ -1,0 +1,5 @@
+.vscode/**/*
+*.xml
+*.iml
+*.idea/**/*
+.DS_store/**/*
