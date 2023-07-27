@@ -1,0 +1,45 @@
+.burger {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.burger-line-1,
+.burger-line-2,
+.burger-line-3 {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
+
+.burger,
+.burger-line-2 {
+    top: calc(50% - 10px);
+}
+
+.burger,
+.burger-line-3 {
+    top: calc(50% + 10px);
+}
+
+/* Меняем гамбургер иконку, когда меню открыто */
+.burger.active .burger-line-1 {
+    display: none;
+}
+
+.burger.active .burger-line-2 {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.burger.active .burger-line-3 {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}

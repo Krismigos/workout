@@ -1,0 +1,50 @@
+ .navigation-wrapper {
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+  /* навігація */
+ .navigation-wrapper {
+     padding-top: 31px;
+     padding-bottom: 31px;
+ }
+
+ #nav {
+     position: absolute;
+     background-color: var(--dark-purple);
+     border-radius: 20px 0px 0px 20px;
+     top: 80px;
+     right: 0;
+     padding: 30px 41px;
+ }
+
+ .navigation-list {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+     margin-bottom: 30px;
+     padding: 0;
+ }
+
+ .navigation-list-link {
+     font-size: 12px;
+     font-weight: 400;
+     color: var(--white);
+     text-decoration: none;
+ }
+
+ .navigation-btn {
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     font-size: 12px;
+     font-weight: 400;
+
+
+     color: var(--white);
+     background-color: var(--pink);
+     padding: 10px;
+ }

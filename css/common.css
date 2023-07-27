@@ -1,0 +1,24 @@
+:root {
+    --pink: #F24B88;
+    --white: #fff;
+    --black: #0D0D0D;
+    --light-black: #1F1C26;
+    --dark-purple: #59253E;
+}
+
+* {
+    font-family: Poppins;
+    color: var(--black);
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.general-bg {
+    height: 100vh;
+    background-color: var(--light-black);
+    overflow-y: auto;
+}
