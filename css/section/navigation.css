@@ -5,7 +5,8 @@
      justify-content: space-between;
  }
 
-  /* навігація */
+ /* навігація */
+
  .navigation-wrapper {
      padding-top: 31px;
      padding-bottom: 31px;
@@ -47,4 +48,36 @@
      color: var(--white);
      background-color: var(--pink);
      padding: 10px;
+ }
+
+ @media screen and (min-width:1024px) {
+     .burger {
+         display: none;
+     }
+
+     #nav {
+         position: relative;
+         top: 0;
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+         background-color: #00000000;
+         padding: 0;
+
+     }
+
+
+     .navigation-list {
+         display: flex;
+         align-items: center;
+         flex-direction: row;
+         justify-content: center;
+         gap: 40px;
+         margin: 0 105px 0 0;
+
+     }
+
+     .navigation-btn {
+         right: 100%;
+     }
  }
